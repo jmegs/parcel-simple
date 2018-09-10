@@ -1,0 +1,21 @@
+{
+  "name": "parcel-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/pages/index.pug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "parcel-bundler": "^1.9.7",
+    "postcss-preset-env": "^5.3.0"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3"
+  }
+}
