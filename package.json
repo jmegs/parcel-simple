@@ -1,21 +1,19 @@
 {
   "name": "parcel-simple",
   "version": "1.0.0",
-  "description": "",
+  "description": "minimal config starter for super simple static sites.",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.pug",
-    "build": "rm -rf dist && parcel build src/index.pug"
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "autoprefixer": "^9.1.5",
-    "parcel-bundler": "^1.9.7",
-    "postcss-preset-env": "^5.3.0"
-  },
+  "license": "MIT",
   "devDependencies": {
-    "pug": "^2.0.3"
+    "parcel-bundler": "^1.9.7",
+    "posthtml-include": "^1.2.0",
+    "postcss-preset-env": "^5.3.0",
+    "autoprefixer": "^9.1.5"
   }
 }
